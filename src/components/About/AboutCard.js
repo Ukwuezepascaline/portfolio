@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ukwueze Pascaline  </span>
             from <span className="purple"> Nigeria.</span>
             <br />
-            I am currently Volunteering as a frontend developer at Winnov8.
+            I am currently a frontend developer at Winnov8.
             <br />
             I have a Bsc in Nutrition and Dietetics.
             <br />
