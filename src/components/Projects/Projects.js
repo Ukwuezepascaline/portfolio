@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import quiz from "../../Assets/Projects/quiz.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import convene from "../../Assets/Projects/convene.png";
 import checkout from "../../Assets/Projects/checkout.png";
 import HDiet from "../../Assets/Projects/HDiet.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import techsterverse from "../../Assets/Projects/techster.png";
+import blissResturant from "../../Assets/Projects/bliss.png";
 
 function Projects() {
   return (
@@ -26,8 +26,14 @@ function Projects() {
               imgPath={HDiet}
               isBlog={false}
               title="Healthy Diet For All"
-              description="Healthy diet for all” is an online nutrition website that provides information and resources on healthy eating, including recipes, meal plans, and nutrition tips.
-               The website is built using React and is designed to be accessible and user-friendly."
+              description="Healthy Diets is a personalized nutrition platform
+               that connects users with a Registered Dietician to help them achieve
+                their dietary goals and improve their health. The process involves
+                 three main steps: filling out a form about personal goals and lifestyle,
+                  receiving tailored guidance from the dietician, and making sustainable
+                   changes to adopt healthier habits. It offers
+                     both virtual consultations and customized menu plans for users looking to
+                      improve their nutrition.It's Built with (React and Vite)."
               ghLink="https://github.com/EmmanuelOsademe/healthy-diets.git"
               demoLink="https://healthy-diets.vercel.app/"
             />
@@ -35,11 +41,20 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={blissResturant}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com//Bits-0f-C0de"
+              title="Bliss-Resturant"
+              description=  "Bliss Restaurant  is focused on promoting healthy,
+               nutritious and delicious food options.
+                It highlights a variety of dishes, including a kid's
+                 and vegan menu, while emphasizing the importance of
+                  a healthy lifestyle through good food. It also offers a welcoming
+                   atmosphere with details about dining options, reservations, 
+                   and blog posts. The website mentions special offers like happy hours,
+                    and it encourages visitors to enjoy their meals for both physical and 
+                    mental wellness. Languages used for the website are HTML CSS and JavaScript"
+
+              ghLink="https://github.com/Ukwuezepascaline/bliss-restaurant-.git"
               demoLink="https://blissresturant.netlify.app/"
             />
           </Col>
@@ -49,8 +64,17 @@ function Projects() {
               imgPath={checkout}
               isBlog={false}
               title="Checkout-page"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              description="checkout page for purchasing a subscription to WP Pusher,
+               a tool designed to simplify WordPress deployment. It offers a Freelancer
+                Plan priced at $99 per year, which renews automatically and provides access
+                 to 5 client sites, private repositories, and email support. The page also 
+                 includes a testimonial from a customer, Kirk Beard, who highlights WP Pusher's 
+                 advantage over FTP and praises its customer support. The checkout form collects
+                  basic information (name and email) and payment details (credit card). Additionally,
+                   there is an option to upgrade to an Agency Plan if more client sites are needed. Built with 
+                   HTML, CSS and Javascript."
+
+              ghLink="https://github.com/Ukwuezepascaline/Checkout.git"
               demoLink="https://mycheckoutform.netlify.app/"              
             />
           </Col>
@@ -60,32 +84,49 @@ function Projects() {
               imgPath={quiz}
               isBlog={false}
               title="Quiz App"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              description=" Quiz App designed to test users' proficiency in JavaScript.
+               It offers a quiz where users answer questions within 15 seconds each.
+                Points are awarded based on correct answers, and users can replay the
+                 quiz or quit once completed. The quiz is interactive, with a countdown 
+                 timer and feedback for completion. It's Built with HTML,CSS AND Javascript"
+              ghLink="https://github.com/Ukwuezepascaline/Quiz-app.git"
               demoLink="https://quiz-app-ukwuezepascaline.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={techsterverse}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Techsterverse"
+              description="Techsterverse is a platform designed for developers to connect,
+               collaborate, and work on projects. It provides a space for developers to team
+                up, develop new skills, and build valuable connections within the tech community
+                Key features include collaboration on projects,skill development, networking opportunities,
+              potential participation in tournaments. The platform is open to developers and sponsors
+                who share its vision for the future of tech. Users are encouraged to sign up and get involved
+                in the community. It's Built with React."
+
+              ghLink="https://github.com/Ukwuezepascaline/Tech-ster-verse.git"
+              // demoLink="https://techsterverse.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={convene}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Convene"
+              description="Convene is a platform designed to help meetup organizers
+               crowdsource and prioritize questions for their events. It allows users
+                to submit questions and vote on them, helping organizers determine which
+                 questions are most popular or important. The most voted questions are 
+                 displayed at the top, ensuring that the most relevant or interesting 
+                 topics are addressed during the meetup. This tool helps streamline the
+                  event's Q&A session by organizing questions based on community interest.
+                 It's Built with React."
+              ghLink="https://github.com/Ukwuezepascaline/Convene.git"
+              // demoLink="https://con-vene.netlify.app/"
             />
           </Col>
         </Row>
