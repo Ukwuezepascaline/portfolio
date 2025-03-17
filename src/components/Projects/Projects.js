@@ -8,6 +8,7 @@ import checkout from "../../Assets/Projects/checkout.png";
 import HDiet from "../../Assets/Projects/HDiet.png";
 import techsterverse from "../../Assets/Projects/techster.png";
 import blissResturant from "../../Assets/Projects/bliss.png";
+import Winnov8 from "../../Assets/Projects/winnov8.png";
 
 function Projects() {
   return (
@@ -21,6 +22,23 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Winnov8}
+              isBlog={false}
+              title="Winnov8"
+              description="Winnov8 is a website that is focused on driving technology collaboration and innovation.
+              It offers services and expertise to help businesses scale their operations, innovate,
+              and leverage new technologies. The company aims to facilitate growth by supporting tech
+              solutions and collaborations.the website is built using standard web technologies such as
+               HTML, CSS, and JavaScript. the website utilizes modern frameworks and content management 
+               systems to enhance functionality and user experience.
+               "
+              // ghLink="https://github.com//.git"
+              demoLink="https://www.winnov8hq.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={HDiet}
@@ -44,15 +62,13 @@ function Projects() {
               imgPath={blissResturant}
               isBlog={false}
               title="Bliss-Resturant"
-              description=  "Bliss Restaurant  is focused on promoting healthy,
-               nutritious and delicious food options.
-                It highlights a variety of dishes, including a kid's
-                 and vegan menu, while emphasizing the importance of
-                  a healthy lifestyle through good food. It also offers a welcoming
-                   atmosphere with details about dining options, reservations, 
-                   and blog posts. The website mentions special offers like happy hours,
+              description="Bliss Restaurant is focused on promoting healthy nutritious
+               and delicious food options. It highlights a variety of dishes including a kid's
+                and vegan menu, while emphasizing the importance of a healthy lifestyle through
+                 good food. It also offers a welcoming atmosphere with details about dining options,
+                  reservations, and blog posts. The website mentions special offers like happy hours,
                     and it encourages visitors to enjoy their meals for both physical and 
-                    mental wellness. Languages used for the website are HTML CSS and JavaScript"
+                    mental wellness. Languages used for the website are HTML CSS and JavaScript."
 
               ghLink="https://github.com/Ukwuezepascaline/bliss-restaurant-.git"
               demoLink="https://blissresturant.netlify.app/"
