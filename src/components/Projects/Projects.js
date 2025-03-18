@@ -31,7 +31,7 @@ function Projects() {
               description="Winnov8 is a website that is focused on driving technology collaboration and innovation.
               It offers services and expertise to help businesses scale their operations, innovate,
               and leverage new technologies. The company aims to facilitate growth by supporting tech
-              solutions and collaborations.the website is built using standard web technologies such as
+              solutions and collaborations.The website is built using standard web technologies such as
                HTML, CSS, and JavaScript. the website utilizes modern frameworks and content management 
                systems to enhance functionality and user experience.
                "
